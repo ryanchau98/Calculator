@@ -1,0 +1,36 @@
+friends = ["kev", "bro", "aus", "luk", "dex"]
+their_numbers = [1, 47, 90, 56, 69]
+
+friends.extend(their_numbers)
+print(friends)
+
+friends.append("int")
+print(friends)
+
+friends.insert(1, "str")
+print(friends)
+
+friends.remove("luk")
+print(friends)
+
+friends.clear()
+print(friends)
+
+friends1 = ["k", "l", "u", "b", "l", "z"]
+
+friends1.pop()
+print(friends1)
+
+print(friends1.index("l"))
+
+print(friends1.count("l"))
+
+friends1.sort()
+print(friends1)
+
+friends1.reverse()
+print(friends1)
+
+friends2 = ["q", "w", "e", "r"]
+friends3 = friends2.copy()
+print(friends3)
