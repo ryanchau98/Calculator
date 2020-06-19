@@ -1,0 +1,9 @@
+people = ["ryan", "kevin", "matt", "calvin"]
+print(people)
+print(people[1])
+print(people[1:])
+print(people[1:3])
+
+friends = ["ryan", "kevin", "matt", "calvin"]
+friends[1] = "allan"
+print(friends[1])
