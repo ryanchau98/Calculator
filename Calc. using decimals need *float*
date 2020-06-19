@@ -1,0 +1,6 @@
+num7 = input("number: ")
+num8 = input("number: ")
+
+results4 = float(num7) * float(num8)
+
+print(results4)
