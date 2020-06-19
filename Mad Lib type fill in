@@ -1,0 +1,7 @@
+color = input("Pick a color: ")
+pnoun = input("Pick a plural noun: ")
+celeb = input("Pick a celebrity: ")
+
+print("Roses are " + color )
+print(pnoun + " are blue")
+print("I love " + celeb)
