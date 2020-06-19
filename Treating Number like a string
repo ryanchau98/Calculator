@@ -1,0 +1,6 @@
+num5 = input("Can you enter the first digit you would like me to use in my calculation ? ")
+num6 = input("Can you now enter the second digit to use in my calculation ? ")
+
+results3 = int(num5) + int(num6)
+
+print(str(results3) + " is the sum of the two numbers you entererd.")
