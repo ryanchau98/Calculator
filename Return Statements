@@ -7,3 +7,8 @@ def calc(num1):
 result = calc(3)
 print(result)
 
+def calc(num1):
+    print("hi")
+    return num1 * num1 * num1
+result = calc(3)
+print(result)
