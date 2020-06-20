@@ -1,0 +1,9 @@
+def calc(num1):
+    return num1 * num1 * num1
+print(calc(3))
+
+def calc(num1):
+    return num1 * num1 * num1
+result = calc(3)
+print(result)
+
