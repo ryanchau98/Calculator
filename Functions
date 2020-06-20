@@ -12,3 +12,9 @@ print("Good Morning Ryan")
 def say_hiya1(name, age):
     print("Hello " + name + ", You Are " + age + " Years Old.")
 say_hiya1("Ryan", "19")
+
+def math_question(num1, num2):
+    results = int(num1) + int(num2)
+    print(results)
+math_question(19, 20)
+
