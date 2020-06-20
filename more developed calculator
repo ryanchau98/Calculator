@@ -1,0 +1,20 @@
+def add(x, y):
+    return x + y
+
+def sub(x, y):
+    return x - y
+
+while True:
+    choice = input("enter choice (add/sub): ")
+
+    if choice in ("add", "sub"):
+        num1 = float(input("enter the first value: "))
+        num2 = float(input("enter the second value: "))
+        if choice == "add":
+            print(int(num1), "+", int(num2), "=", add(num1, num2))
+        elif choice == "sub":
+            print(int(num1), "-", int(num2), "=", sub(num1, num2))
+        break
+    else:
+        print("invalid input")
+        break
