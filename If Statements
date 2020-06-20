@@ -1,0 +1,22 @@
+is_male = True
+is_tall = False
+if is_male:
+    print("you're are male")
+    if is_tall:
+        print("Wassup tall boy")
+        name = input("What is your name: ")
+        print("Hello " + name)
+    else:
+        print("go away shorty")
+else:
+    print("you are not male")
+  
+is_male = False
+is_tall = True
+if is_male or is_tall:
+    print("you're are male or tall or you're both")
+
+is_male = False
+is_tall = True
+if is_male and is_tall:
+    print("you're are male and tall")
