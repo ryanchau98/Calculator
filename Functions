@@ -1,0 +1,14 @@
+def say_hi():
+    print("Hello Ryan")
+
+say_hi()
+
+def sayhi():
+    print("Hello Ryan")
+print("Wassup Ryan")
+sayhi()
+print("Good Morning Ryan")
+
+def say_hiya1(name, age):
+    print("Hello " + name + ", You Are " + age + " Years Old.")
+say_hiya1("Ryan", "19")
