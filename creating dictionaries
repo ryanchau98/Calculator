@@ -1,0 +1,13 @@
+shorthand_months = {
+    "jan": "january",
+    "feb": "february",
+    "sept": "september"
+}
+print(shorthand_months.get("jan"))
+
+shorthand_months1 = {
+    0: "january",
+    1: "february",
+    2: "september"
+}
+print(shorthand_months1.get(0))
