@@ -1,0 +1,65 @@
+def add(x, y):
+    return x + y
+def sub(x, y):
+    return x - y
+def mult(x, y):
+    return x * y
+def div(x, y):
+    return x / y
+# dont really need this only if you wanna show the equation, have to def it for the actual function
+
+print("Select function")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+print("5. Exponents")
+while True:
+    choice = (input("Please select your function (1/2/3/4/5): "))
+    if choice in ("1", "2", "3", "4", "5"):
+        num1 = (float(input("please enter the first value: ")))
+        num2 = (float(input("please enter the second value: ")))
+        if choice == "1":
+            results1 = float(num1) + float(num2)
+            print(results1)
+        elif choice == "2":
+            results2 = float(num1) - float(num2)
+            print(results2)
+        elif choice == "3":
+            results3 = float(num1) * float(num2)
+            print(results3)
+        elif choice == "4":
+            results4 = float(num1) / float(num2)
+            print(results4)
+        elif choice == "5":
+            results5 = float(num1) ** (float(num2))
+            print(results5)
+    else:
+            print("i didnt understand you request")
+            print("please try again :D")
+            print("     ")
+            print("     ")
+    break
+
+#or
+
+num3 = float(input("insert first value: "))
+operation = input("enter operation (+, -, x, /): ")
+num4 = float(input("insert second value: "))
+while True:
+    if operation == "+":
+        first_op = float(num3) + float(num4)
+        print(num3, "+", num4, "=",  first_op)
+    elif operation == "-":
+        second_op = float(num3) - float(num4)
+        print(num3, "-", num4, "=", second_op)
+    elif operation == "x":
+        third_op = float(num3) * float(num4)
+        print(num3, "x", num4, "=", third_op)
+    elif operation == "/":
+        fourth_op = float(num3) / float(num4)
+        print(num3, "/", num4, "=", fourth_op)
+    else:
+        print("please make sure you entered the correct inputs")
+    break
+print("anything else?")
